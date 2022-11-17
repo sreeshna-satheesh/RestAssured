@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3908" started-at="2022-11-10T08:00:41Z" finished-at="2022-11-10T08:00:44Z">
+    <groups>
+    </groups>
+    <test name="RestAssured" duration-ms="3908" started-at="2022-11-10T08:00:41Z" finished-at="2022-11-10T08:00:44Z">
+      <class name="restAssured.TC_01_ListUsers">
+        <test-method status="PASS" signature="setup()[pri:0, instance:restAssured.TC_01_ListUsers@5b275dab]" name="setup" is-config="true" duration-ms="3761" started-at="2022-11-10T00:00:41Z" finished-at="2022-11-10T00:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyListUsers()[pri:1, instance:restAssured.TC_01_ListUsers@5b275dab]" name="verifyListUsers" duration-ms="122" started-at="2022-11-10T00:00:44Z" finished-at="2022-11-10T00:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListUsers -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:2, instance:restAssured.TC_01_ListUsers@5b275dab]" name="verifyStatusCode" duration-ms="1" started-at="2022-11-10T00:00:44Z" finished-at="2022-11-10T00:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="verifyContentType()[pri:3, instance:restAssured.TC_01_ListUsers@5b275dab]" name="verifyContentType" duration-ms="6" started-at="2022-11-10T00:00:44Z" finished-at="2022-11-10T00:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentType -->
+        <test-method status="PASS" signature="verifyTransferEncoding()[pri:4, instance:restAssured.TC_01_ListUsers@5b275dab]" name="verifyTransferEncoding" duration-ms="0" started-at="2022-11-10T00:00:44Z" finished-at="2022-11-10T00:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransferEncoding -->
+      </class> <!-- restAssured.TC_01_ListUsers -->
+    </test> <!-- RestAssured -->
+  </suite> <!-- Suite -->
+</testng-results>

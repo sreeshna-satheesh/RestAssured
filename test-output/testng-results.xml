@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3150" started-at="2022-11-10T07:44:39Z" finished-at="2022-11-10T07:44:42Z">
+  <suite name="Default suite" duration-ms="5481" started-at="2022-11-14T05:15:31Z" finished-at="2022-11-14T05:15:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3150" started-at="2022-11-10T07:44:39Z" finished-at="2022-11-10T07:44:42Z">
-      <class name="restAssured.TC_01_ListUsers">
-        <test-method status="PASS" signature="setup()[pri:0, instance:restAssured.TC_01_ListUsers@62043840]" name="setup" is-config="true" duration-ms="2967" started-at="2022-11-09T23:44:39Z" finished-at="2022-11-09T23:44:42Z">
+    <test name="Default test" duration-ms="5481" started-at="2022-11-14T05:15:31Z" finished-at="2022-11-14T05:15:36Z">
+      <class name="restAssured.TC_07_GitHub_Ex5">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:restAssured.TC_07_GitHub_Ex5@783e6358]" name="createUser" duration-ms="5442" started-at="2022-11-13T21:15:31Z" finished-at="2022-11-13T21:15:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyListUsers()[pri:1, instance:restAssured.TC_01_ListUsers@62043840]" name="verifyListUsers" duration-ms="134" started-at="2022-11-09T23:44:42Z" finished-at="2022-11-09T23:44:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyListUsers -->
-        <test-method status="PASS" signature="verifyStatusCode()[pri:2, instance:restAssured.TC_01_ListUsers@62043840]" name="verifyStatusCode" duration-ms="1" started-at="2022-11-09T23:44:42Z" finished-at="2022-11-09T23:44:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStatusCode -->
-        <test-method status="PASS" signature="verifyContentType()[pri:3, instance:restAssured.TC_01_ListUsers@62043840]" name="verifyContentType" duration-ms="4" started-at="2022-11-09T23:44:42Z" finished-at="2022-11-09T23:44:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContentType -->
-        <test-method status="PASS" signature="verifyTransferEncoding()[pri:4, instance:restAssured.TC_01_ListUsers@62043840]" name="verifyTransferEncoding" duration-ms="4" started-at="2022-11-09T23:44:42Z" finished-at="2022-11-09T23:44:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTransferEncoding -->
-      </class> <!-- restAssured.TC_01_ListUsers -->
+        </test-method> <!-- createUser -->
+      </class> <!-- restAssured.TC_07_GitHub_Ex5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
